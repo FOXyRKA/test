@@ -34,7 +34,7 @@ function createCards(cardsData) {
     // Формируем HTML одной карточки (исправлена опечатка cardDada -> cardData)
     const card = `
         <div class="card">
-          <div class="card_img"><img src="/М.png" /></div>
+          <div class="card_img"><img src="/image.png" /></div>
           <div class="text_card card_name">${cardData.name}</div>
           <div class="text_card card_email">${cardData.email}</div>
           <div class="text_card card_city">${cardData.address.city}</div>
