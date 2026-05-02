@@ -23,7 +23,7 @@ function createCards(cardsData) {
   cardsData.forEach((cardDada) => {
     const card = `
         <div class="card">
-          <div class="card_img"><img src="/image.png" /></div>
+          <div class="card_img"><img src="image.png" /></div>
           <div class="text_card card_name">${cardDada.name}</div>
           <div class="text_card card_email">${cardDada.email}</div>
           <div class="text_card card_city">${cardDada.address.city}</div>
